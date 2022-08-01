@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+table {
+    width: 600px;
+    height: 600px;
+    font-size: 35px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.669);
+    color: white;
+    cursor: pointer;
+   border: 5px solid rgb(124, 48, 171);
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+h1 {
+    color: rgb(124, 48, 171);
+  
+    font-size: 60px;
+    margin-left: 35%;
+}
+
+h2{
+  
+    color: azure;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+}
+
+.main-stop-watch {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    background-color: rgb(67, 181, 114);
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+   
+}
+
+
+
+.level{
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 110px;
+    margin-left: 750px;
+    margin-bottom: 50px;
+    background-color: rgb(166, 112, 217);
+    border-radius: 80px;
+    text-align: center;
+   
+}
+
+.b1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 10px;
+
+    
+}
+
+.b1:hover{
+    background-color: rgb(67, 181, 114);
+    transform:scale(1.2);
+}
+
+.modal{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    background-color: rgb(67, 181, 114);
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+    margin-left: 725px;
+    margin-right: 10px;
+}
+
+.number {
+    font-weight: bold;
+    color: red;
+}
